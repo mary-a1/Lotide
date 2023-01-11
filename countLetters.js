@@ -7,13 +7,14 @@ const assertEqual = function(actual, expected) {
 };
 
 
-const string = `lighthouse in the house`;
+const string = `LHL`;
 
 const countLetters = function (str){
 
   const object = {};
-  
-  const removeSpace = str.split(" ").join("")
+
+  const lowerCaseStr = str.toLowerCase();
+  const removeSpace = lowerCaseStr.split(" ").join("")
   
   for (letter of removeSpace){
     // if letter does not exist in the object, create it and set it to 1
