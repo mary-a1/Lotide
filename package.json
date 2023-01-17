@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@mary-a1/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "Project on replicating lodash",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,10 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/mary-a1/Lotide.git"
   },
-  "author": "",
+  "author": "Maryan Ali",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mary-a1/Lotide/issues"
+    "url": "https://github.com/mary-a1/Lotide"
   },
   "homepage": "https://github.com/mary-a1/Lotide#readme",
   "devDependencies": {
